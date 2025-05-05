@@ -1,0 +1,11 @@
+name: Test Hello
+description: Hello
+author: Shunsuke Suzuki
+branding:
+  icon: git-commit
+  color: green
+runs:
+  using: composite
+  steps:
+    - shell: bash
+      run: echo hello
